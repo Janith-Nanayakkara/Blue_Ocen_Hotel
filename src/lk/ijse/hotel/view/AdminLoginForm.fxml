@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="684.0" prefWidth="1146.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminLoginFormController">
+   <children>
+      <ImageView fitHeight="686.0" fitWidth="1146.0">
+         <image>
+            <Image url="@organic-flat-new-normal-hotels_23-2148912163.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="382.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Login Form">
+         <font>
+            <Font name="Copperplate Gothic Light" size="45.0" />
+         </font></Text>
+      <Label layoutX="724.0" layoutY="210.0" text="User Name">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Label>
+      <Label layoutX="720.0" layoutY="297.0" text="Password">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Label>
+      <TextField layoutX="709.0" layoutY="237.0" prefHeight="31.0" prefWidth="216.0" />
+      <TextField layoutX="709.0" layoutY="324.0" prefHeight="31.0" prefWidth="216.0" />
+      <Button layoutX="801.0" layoutY="368.0" mnemonicParsing="false" onAction="#loginAdminFutureOnAction" style="-fx-background-color: #ffffff;" text="Login">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="30.0" layoutY="610.0" mnemonicParsing="false" onAction="#backLoginOnAction" prefHeight="42.0" prefWidth="94.0" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>
